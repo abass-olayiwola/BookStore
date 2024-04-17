@@ -1,8 +1,112 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+.custom-hover-border tbody tr:hover {
+  background-color: #37c3ed;
+  color: white;
+} 
+.text-col{
+  color:blue;
+}
+.row-size{
+  width:400px;
+}
+.row-size-big{
+  width:600px;
 }
 
-a {
-  color: #00B7FF;
+.input-size{
+  width:400px;
 }
+
+.icon-container {
+  margin-left: 20px; 
+}
+
+
+.navbar-color{
+  background-color: black;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+.navbar-toggler-icon{
+  filter: invert(100%); /* Invert the color to white */
+}
+
+.nav-link{
+  color:white;
+
+}
+.p-white{
+  color:white;
+}
+
+
+.side-color{
+  background-color: black;
+}
+
+.side-right-color{
+  background-color: #37c3ed;
+}
+
+.unorder-type {
+  list-style-type: square;
+}
+
+.order-type {
+  list-style-type: lower-roman;
+}
+.unorder-type {
+  list-style-type: disc;
+}
+
+.order-type {
+  list-style-type: lower-greek;
+}
+
+.text-white{
+  color: white;
+  }
+ 
+  
+a:hover {
+  color: #37c3ed;
+  text-decoration: none;
+}
+
+.teaser a:hover p{
+  color:#37c3ed;
+}
+
+.offset-div {
+  margin-top: 100px;
+  background: radial-gradient(#eea3ad, #ff0022);
+  height: 300px;
+  width: 200px
+}
+
+.offset {
+  height: 200px;
+  width: 100px;
+  background: linear-gradient(to right top, #cfc2ec, #690efc);
+  left: -20px;
+  position: relative;
+  top: -20px;
+}
+
+.div-footer{
+  height: 100px;
+  background: linear-gradient(80deg, 
+  rgb(224, 9, 231) 1100px, 
+  rgb(18, 211, 245) 200px
+  );
+}
+
+
+

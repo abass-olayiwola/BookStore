@@ -1,1 +1,1 @@
-App to sell textbooks
+App to store textbooks
